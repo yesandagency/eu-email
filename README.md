@@ -1,39 +1,8 @@
-# MailChimp Template - This Week in Lucy
-
-## MailChimp Template Tags
-
-[https://templates.mailchimp.com/getting-started/template-language/]
-
-`mc:edit="header"`
-Use this to name your email header.
-
-`mc:label="header"`
-Label is not required.
-
-`mc:hideable`
-Can be added to any html element to allow a element tot be hidden.
-
-`mc:repeatable`
-Is used to provide a duplication action for a particular element within a template.
-
-## Loading Google Fonts
-Uses custom fonts. Uses Google Font with link and @import
-Google Fonts:
-```
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
-
-    .font-family-roboto-condensed{
-      font-family: 'Roboto Condensed', sans-serif;
-    }
-    </style>
-```
+# Email - Elmhurst University
 
 # Developer notes
  mailwind package used for implmenting email design. See the github page: 
-[yesandagency.github.io/ndli-email/](https://yesandagency.github.io/ndli-email/)
+[yesandagency.github.io/eu-email/](https://yesandagency.github.io/eu-email/)
 
 mailwind --input-html email.html --output-html index.html
 
